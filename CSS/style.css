@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 80px;
+    background: white;
+    overflow: hidden;
+}
+.Brandname{
+    font-size: 30px;
+    margin-left: 81px;
+    padding-top: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: cursive;
+    letter-spacing: .5;
+    color: #0b2341;
+}
+.menus{
+    position: absolute;
+    top: 40px;
+    right: 200px;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.menu-name{
+    display: inline-block;
+    padding-left: 40px;
+}
+.li-name:hover{
+    color: tomato;
+}
+.li-name{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #0b2341;
+    cursor: pointer;
+}
+.get-started{
+    display: inline-block;
+    position: absolute;
+    top: 43px;
+    right: 32px;
+    background: #ed502e;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+.get-started:hover{
+    color: tomato;
+}
+.active{
+    color: #ed502e;
+}
+#banner {
+    background-image:url(../Images/banner1.jpg) ;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-name{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 100px;
+    font-size: 50px;
+    color: #0b2341;
+}
+.banner-info{
+    position: absolute;
+    padding-top: 206px;
+    padding-left: 77px;
+    text-align: center;
+    font-size: 17px;
+    width: 50%;
+    color: floralwhite;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.Read-more{
+    position: absolute;
+    top: 380px;
+    left: 300px;
+    background-color: red;
+    padding: 14px 32px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+}
+.Read-more:hover{
+    color: tomato;
+}
+.About-title{
+    padding-left: 80px;
+    font-size: 40px;
+    font-family: system-ui;
+    color: #0f2f57;
+    letter-spacing: 1.5px;
+}
+.box{
+    display: inline-block;
+    height: 300px;
+    width: 700px;
+    margin-left: 35px;
+}
+.About-info1{
+    padding-left: 10px;
+}
+.fa-solid{
+    font-weight: 900;
+    position: relative;
+    top: 31px;
+    left: 16px;
+}
+.inside-box {
+    float: left;
+}
+.point{
+    padding-left: 50px;
+}
+.About-info2{
+    padding-left: 12px;
+    letter-spacing: 1px;
+}
+.Learn-more{
+    border: 2px solid;
+    border-color: tomato;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    line-height: 1px;
+    padding: 12px 32px;
+    color: tomato;
+    border-radius: 6px;
+}
+.Learn-more:hover{
+background-color: tomato;
+color: white;
+}
+.box4{
+    display: inline-block;
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    margin-left: 16px;
+    border-radius: 6px;
+    border: 3px solid red;
+}
+.fa-face-smile{
+    position: relative;
+    left: 70px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.fa-book{
+    position: relative;
+    left: 70px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.fa-headset{
+    position: relative;
+    left: 70px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 20px; 
+}
+.fa-user-group{
+    position: relative;
+    left: 70px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 20px; 
+}
+.h1{
+    padding-left: 120px;
+    font-size: 40px;
+    color: #0b2341;
+}
+.box-info{
+    padding-left: 4px;
+    letter-spacing: .5px;
+    line-height: 22px;
+}
+.Find-out-more{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    display: block;
+    color: #164682;
+    font-size: 15px;
+}
+.Services-title{
+    padding-left: 80px;
+    font-size: 40px;
+    font-family: system-ui;
+    color: #0f2f57;
+    letter-spacing: 1.5px;
+}
+.services-box1-3{
+    display: inline-block;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 480px;
+    margin-left: 22px;
+    float: left;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.fa-globe{
+    position: relative;
+    color: #c8331f;
+    font-size: 50px;
+    padding-left: 180px;
+}
+.fa-file{
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+.fa-gauge-simple-high{
+    color: #c8331f;
+    font-size: 50px;
+    position: relative;
+    left: 180px;
+}
+.Services-heading{
+    position: relative;
+    left: 160px;
+    top: 70px;
+    font-size: 20px;
+}
+.Services-para{
+    position: relative;
+    top: 80px;
+    padding-left: 10px;
+    line-height: 21px;
+}
+.services-box2-3{
+    display: inline-block;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 480px;
+    margin-left: 22px;
+    float: left;
+    margin-top: 18px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.fa-earth-americas{
+    position: relative;
+    color: #c8331f;
+    font-size: 50px;
+    padding-left: 180px;
+}
+.fa-square-youtube{
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+.fa-building-columns{
+    color: #c8331f;
+    font-size: 50px;
+    position: relative;
+    left: 180px;
+}
+.Services-heading1{
+    position: relative;
+    left: 160px;
+    top: 70px;
+    font-size: 20px;
+}
+.Services-para1{
+    position: relative;
+    top: 80px;
+    padding-left: 10px;
+    line-height: 21px;   
+}
+.services-box1-3:hover{
+    transform: rotate(15deg);
+   background-color: red;
+   color: white;
+}
+.services-box2-3:hover{
+    transform: rotate(15deg);
+   background-color: red;
+   color: white;
